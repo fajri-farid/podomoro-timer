@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- FONT -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Open+Sans:wght@300;400;600&display=swap"
+            rel="stylesheet">
+        <!-- ICON -->
+        <script src="https://kit.fontawesome.com/de991fd127.js"
+            crossorigin="anonymous"></script>
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css">
+        <!-- TITLE -->
+        <title>Podomoro</title>
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <h1>Podomoro</h1>
+
+                <div class="painel">
+                    <p id="fokus">Fokus</p>
+                    <p id="istirahat">Istirahat</p>
+                </div>
+
+                <div class="timer">
+                    <div class="circle">
+                        <div class="waktu">
+                            <p id="menit"></p>
+                            <p>:</p>
+                            <p id="detik"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tombol">
+                    <button id="mulai" onclick="mulai()"><i class="fa-solid fa-play"></i></button>
+
+                    <a id="reset" href="index.html"><i class="fa-solid fa-arrow-rotate-left"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- JAVASCRIPT -->
+        <script src="script.js"></script>
+    </body>
+</html>
